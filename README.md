@@ -2,7 +2,7 @@
 
 part One is here : https://github.com/jeandi7/zreader1
 
-We find ourselves 100 lines later (350 + 100) with part II
+We find ourselves 100 lines later (350 + 100) from part I
 
 Unlike Part One, the Reader adds now a generation of a plantUML code file.
 
