@@ -71,7 +71,7 @@ With zschema.zed like this :
 
 ![zschema](images/zschema1.png)
 
-I voluntarily copy/paste the definition mysubject3
+I voluntarily copy/paste the definition mysubject3 inside the zed file.
 
 <span style="color:yellow">tape :</span> go run zreader.go -fschema "./zschema.zed" -out "zschema"
 
