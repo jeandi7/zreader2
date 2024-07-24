@@ -1,6 +1,6 @@
 # Zanzibar SpiceDB-like Reader +  Archimate PlantUML Generation Code  in less than 450 lines of golang : part II
 
-part One is here :
+part One is here : https://github.com/jeandi7/zreader1
 
 We find ourselves 100 lines later (350 + 100) with part II
 
