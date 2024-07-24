@@ -8,7 +8,7 @@ Unlike Part One, the Reader adds now a generation of a plantUML code file.
 
 The goal is to visualize a business object diagram  (with Archimate standard) with the well-know plantUML tool:
 
-![reader](images\zedTopng.png)
+![reader](images/zedTopng.png)
 
 
 ```
@@ -65,7 +65,7 @@ class SemanticAnalyser {
 
 With zschema.zed like this :
 
-![zschema](images\zschema1.png)
+![zschema](images/zschema1.png)
 
 I voluntarily copy/paste the definition mysubject3
 
@@ -73,33 +73,33 @@ I voluntarily copy/paste the definition mysubject3
 
 <span style="color:yellow">response: </span>
 
-![response](images\resp1.png)
+![response](images/resp1.png)
 
 The new semantics module detected the double occurrence of mysubject3. All right.
 
 the zschema.puml is the generated file :
 
-![generated file ](images\zschemaPlantUml.png)
+![generated file ](images/zschemaPlantUml.png)
 
 Plantuml allows you to generate the following PNG file with the zschema.puml as input:
 
-![example](images\zschema.png)
+![example](images/zschema.png)
 
 # Example 2
 
 The platform.zed is :
 
-![example](images\platformzschema.png)
+![example](images/platformzschema.png)
 
 <span style="color:yellow">tape :</span> go run  zreader.go -fschema "./platform.zed" -out "platform"
 
 <span style="color:yellow">response:</span>
 
-![response](images\resp2.png)
+![response](images/resp2.png)
 
 Using the generated platform.puml file with PlantUML helps us to show the Archimate following diagram :
 
-![example](images\platform.png)
+![example](images/platform.png)
 
 # Help mode
 
@@ -107,7 +107,7 @@ Using the generated platform.puml file with PlantUML helps us to show the Archim
 
 <span style="color:yellow">response:</span>
 
-![response](images\helpResponse.png)
+![response](images/helpResponse.png)
 
 
 #
