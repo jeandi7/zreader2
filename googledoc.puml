@@ -1,0 +1,16 @@
+@startuml googledoc
+!include <archimate/Archimate>
+Business_Object(b1,"user")
+Business_Object(b2,"resource")
+Business_Object(b3,"usergroup")
+Business_Object(b4,"organization")
+Rel_Access_w(b1,b2,"manager")
+Rel_Access_w(b1,b2,"viewer")
+Rel_Access_w(,b2,"viewer")
+Rel_Access_w(b1,b3,"manager")
+Rel_Access_w(b1,b3,"direct_member")
+Rel_Access_w(b3,b4,"group")
+Rel_Access_w(b1,b4,"administrator")
+Rel_Access_w(b1,b4,"direct_member")
+Rel_Access_w(b2,b4,"resource")
+@enduml

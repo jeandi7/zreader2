@@ -1,0 +1,11 @@
+@startuml platform
+!include <archimate/Archimate>
+Business_Object(b4,"user")
+Business_Object(b1,"platform")
+Business_Object(b2,"organization")
+Business_Object(b3,"resource")
+Rel_Access_w(b4,b1,"administrator")
+Rel_Access_w(b1,b2,"platform")
+Rel_Access_w(b4,b3,"owner")
+Rel_Access_w(b2,b3,"owner")
+@enduml

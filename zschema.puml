@@ -1,0 +1,13 @@
+@startuml zschema
+!include <archimate/Archimate>
+Business_Object(b5,"maressource")
+Business_Object(b1,"monsujet")
+Business_Object(b2,"monsujet2")
+Business_Object(b3,"monsujet3")
+Rel_Access_w(b1,b2,"marelation")
+Rel_Access_w(b1,b5,"marelation")
+Rel_Access_w(b2,b5,"marelation")
+Rel_Access_w(b1,b5,"marelation2")
+Rel_Access_w(b2,b5,"marelation2")
+Rel_Access_w(b3,b5,"marelation2")
+@enduml
