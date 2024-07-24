@@ -6,6 +6,10 @@ We find ourselves 100 lines later (350 + 100) with part II
 
 Unlike Part One, the Reader adds now a generation of a plantUML code file.
 
+Honestly compared to part 1, this is the easiest part.
+
+The most complex part is writing the BNF grammar.
+
 The goal is to visualize a business object diagram  (with Archimate standard) with the well-know plantUML tool:
 
 ![reader](images/zedTopng.png)
@@ -114,6 +118,6 @@ Using the generated platform.puml file with PlantUML helps us to show the Archim
 
 About Zanzibar : https://storage.googleapis.com/pub-tools-public-publication-data/pdf/0749e1e54ded70f54e1f646cd440a5a523c69164.pdf
 
-About SpiecDB : https://authzed.com/blog/spicedb-is-open-source-zanzibar#everybody-is-doing-zanzibar-how-is-spicedb-different
+About SpiceDB : https://authzed.com/blog/spicedb-is-open-source-zanzibar#everybody-is-doing-zanzibar-how-is-spicedb-different
 
 About PlantUML : https://plantuml.com/fr/download
