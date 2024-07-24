@@ -79,9 +79,9 @@ I voluntarily copy/paste the definition mysubject3 inside the zed file.
 
 ![response](images/resp1.png)
 
-The new semantics module detected the double occurrence of mysubject3. All right.
+The new semantic module detected the double occurrence of mysubject3. All right.
 
-the zschema.puml is the generated file :
+the zschema.puml file is the generated file :
 
 ![generated file ](images/zschemaPlantUml.png)
 
